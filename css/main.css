@@ -52,9 +52,12 @@ button {
 }
 
 .background {
-  background-color: #426A8E;
+  background-image: url("../images/bgtile.png");
+  /* background: linear-gradient(red, yellow); */
+
+  /* background-color: #426A8E; */
   width: 100%;
-  padding: 10%;
+  height: 250px;
   position: fixed;
   z-index: -1;
 }
